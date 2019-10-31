@@ -1,25 +1,41 @@
-/* TODO:  *//* REVIEW:  *//* FIXME:  *//* SECTION:  *//* STUB:  *//* ANCHOR:  */
-/* NOTE:  *//* *: *//* !: *//* ?: */
+/* TODO:  */
+/* REVIEW:  */
+/* FIXME:  */
+/* SECTION:  */
+/* STUB:  */
+/* ANCHOR:  */
+/* NOTE:  */
+/* *: */
+/* !: */
+/* ?: */
 
-*, *::before, *::after {
-    margin: 0; padding: 0;
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
 }
 
 body {
-    width: 100vw; height: 100vh; /* NOTE:  */
-    border: 2px solid black; /* NOTE:  */
-    font-family: sans-serif; /* NOTE:  */
+    width: 100vw;
+    height: 100vh;
+    /* NOTE:  */
+    border: 2px solid black;
+    /* NOTE:  */
+    font-family: sans-serif;
+    /* NOTE:  */
     position: relative;
 }
+
 main {
     min-height: 65vh;
 }
 
 div.modal-search-bar {
-    background: rgba(0,0,0, 0.7);
+    background: green;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,48 +47,56 @@ div.modal-search-bar {
 
     display: none;
 }
-    .search-bar-content {
-        background: white;
-        border: 2px solid black;
-        display: flex;
-        width: 600px;
-        height: 60px;
-    }
-    .search-form {
-        background: none;
-        border: 2px solid black;
-        width: 100%;
-        height: initial;
-    }
-        .search-input {
-            border: none;
-            border-bottom: 5px solid darkgray;
-            text-align: center;
-            font-size: 1.5em;
-            width: 85%;
-        }
-        .search-btn {
-            padding: 7px;
-            cursor: pointer;
-        }
+
+.search-bar-content {
+    background: white;
+    border: 2px solid black;
+    display: flex;
+    width: 600px;
+    height: 60px;
+}
+
+.search-form {
+    background: none;
+    border: 2px solid black;
+    width: 100%;
+    height: initial;
+}
+
+.search-input {
+    border: none;
+    border-bottom: 5px solid darkgray;
+    text-align: center;
+    font-size: 1.5em;
+    width: 85%;
+}
+
+.search-btn {
+    padding: 7px;
+    cursor: pointer;
+}
+
 /* 
         .fa-search {
             font-family: FontAwesome;
         }
 */
-    .exit {
-        border: 2px solid black;
+.exit {
+    border: 2px solid black;
 
-    }    
-    .exit-btn {
-        cursor: pointer;
-    }
+}
+
+.exit-btn {
+    cursor: pointer;
+}
+
 /*  */
 
 
 form {
     border: 2px solid gray;
 }
+
 fieldset {
     border: 2px solid black;
 }
@@ -81,12 +105,12 @@ label {
     background: lightgray;
     float: left;
     text-align: right;
-	margin: 0 10px 0 0;
-	width: 60px;
+    margin: 0 10px 0 0;
+    width: 60px;
 }
+
 label[for="email"]::after,
-label[for="password"]::after
-{
+label[for="password"]::after {
     content: ' *';
 }
 
@@ -94,6 +118,7 @@ input.validate-btn {
     border: 2px solid gray;
     float: right;
 }
+
 div.logout-container {
     border: 2px solid gray;
     width: 100%;
