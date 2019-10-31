@@ -16,6 +16,7 @@ body {
 }
 main {
     min-height: 65vh;
+    background-color:lightblue;
 }
 
 div.modal-search-bar {
