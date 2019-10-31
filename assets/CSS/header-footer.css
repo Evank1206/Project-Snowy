@@ -18,7 +18,7 @@ header .container-wrapper {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 180px;
+        width: 463px;
         height: 100%;
     }
         .project-title i {
@@ -27,7 +27,7 @@ header .container-wrapper {
         }
     .navbar {
         border: 2px solid green;
-        /* width: 300px; */
+        width: 464px;
         height: 100%;
     }
         .navbar ul {
