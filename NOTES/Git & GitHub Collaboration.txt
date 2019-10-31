@@ -1,0 +1,22 @@
+< Git & GitHub Collaboration >
+
+^ DOUBLE CHECK
+- (master) > ([branch name])
+    - check which pathway you're on
+
+^ USE GIT
+- git checkout -b [branch-name]
+    - set branch name as task & initial
+    - creates & move to pathway
+    - e.g: git checkout -b [working-layout-MA]
+
+- git add *
+- git commit -m "[describe type of work]"
+- git push origin master
+
+^ CHECK GITHUB
+- view "Compare & Pull Request (green btn)
+- open repository > select 'branch' > select 'new pull request'
+
+^ approval process
+- 
