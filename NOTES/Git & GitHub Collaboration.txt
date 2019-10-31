@@ -17,7 +17,8 @@
 ^ CHECK GITHUB
 - open repository > select 'branch' > select 'new pull request'
 - compare & Pull Request
-    - green button, shorcut
+    - green button, with icon :: shorcut
+    - skips to 'open a pull request'
 
 - active branches : new pull request
 	- gray button, with icon
@@ -41,17 +42,25 @@
 	- gray button, pop-up option
 	- 'pull request successfully merged and closed'
 
+
 ^ APPROVAL OPTION
 - …
+
 
 ^ CHECK GIT (2)
 - git checkout master
     - ONLY for git pull & creating branches
+    - REMEMBER master does not have update yet
 - git pull
-    - all new updates
-- git checkout -b [branch-name]
+    - all new updates & ready
+    - NOW go back to branch
+- OPTION 1 : git checkout -b [branch-name]
+    - create branch name with same/different task name
 - git branch -l
     - view branches available on local PC
 - git branch -d [branch name]
     - delete previous branch name from git
-- READ 'check git (1)'
+- OPTION 2 : git checkout -b [branch-name]
+    - create branch name with same/different task name
+
+- REDO 'check git (1)'
