@@ -1,7 +1,7 @@
 /* -------------------------------------------------------------------------- */
 
 $(() => {
-    /*  */
+/*  */
     const firebaseConfig = {
         apiKey: "AIzaSyAEgZVGKLpktoJVDCiHRoug_rLi7qjSTcg",
         authDomain: "project-snowy.firebaseapp.com",
@@ -72,6 +72,7 @@ $(() => {
     }).then(data => {
         console.log(Response)
     });
+/*  */
 });
 
 

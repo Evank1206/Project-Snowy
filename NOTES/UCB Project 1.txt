@@ -23,10 +23,10 @@ Members: Micky, Wilson, Larry, EvanK
 		* UX user flow
 
 = Roles =
-* Micky: get data location via API & user input
+* Micky: layout design / event listener
 * Wilson: account authentication with firebase
 * Larry: set data info via API & get data
-* EvanK: front end layout for all 3 pages***
+* EvanK: documentation & recorder
 
 = other =
 * setup process

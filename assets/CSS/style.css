@@ -1,17 +1,7 @@
-/* TODO:  */
-/* REVIEW:  */
-/* FIXME:  */
-/* SECTION:  */
-/* STUB:  */
-/* ANCHOR:  */
-/* NOTE:  */
-/* *: */
-/* !: */
-/* ?: */
+/* TODO:  *//* REVIEW:  *//* FIXME:  *//* SECTION:  *//* STUB:  *//* ANCHOR:  */
+/* NOTE:  *//* *: *//* !: *//* ?: */
 
-*,
-*::before,
-*::after {
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,23 +10,20 @@
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
-    /* NOTE:  */
+    /* width: 100vw; */
+    /* height: 100vh; */
     border: 2px solid black;
-    /* NOTE:  */
     font-family: sans-serif;
-    /* NOTE:  */
     position: relative;
 }
 
 main {
-    min-height: 65vh;
-    background-color:lightblue;
+    min-height: 69vh;
+    /* background-color:lightblue; */
 }
 
 div.modal-search-bar {
-    background: green;
+    background: rgba(0, 0, 0, 0.7);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +35,6 @@ div.modal-search-bar {
 
     display: none;
 }
-
 .search-bar-content {
     background: white;
     border: 2px solid black;
@@ -56,20 +42,18 @@ div.modal-search-bar {
     width: 600px;
     height: 60px;
 }
-
 .search-form {
     background: none;
     border: 2px solid black;
     width: 100%;
     height: initial;
 }
-
 .search-input {
     border: none;
-    border-bottom: 5px solid rgb(47, 54, 151);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.7);
     text-align: center;
     font-size: 1.5em;
-    width: 85%;
+    width: 90%;
 }
 
 .search-btn {
@@ -82,46 +66,67 @@ div.modal-search-bar {
             font-family: FontAwesome;
         }
 */
-.exit {
+
+.search-bar-content .exit {
     border: 2px solid black;
 
 }
-
-.exit-btn {
+.search-bar-content .exit-btn {
     cursor: pointer;
 }
 
+
+div.modal-account {
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+
+    display: none;
+}
+.account-content {
+    background: white;
+    border: 2px solid black;
+    display: flex;
+    flex-flow: column;
+    width: 300px;
+    height: 150px;
+}
+    .user-form {
+        border: 2px solid black;
+        width: 100%;
+        height: 100%;
+    }
+        .user-form label {
+            width: 60px;
+            display: inline-block;
+        }
+        .user-form label[for="email"]::after,
+        .user-form label[for="password"]::after {
+            content: ' *';
+        }
+        .submit-btns {
+            border: 2px solid black;
+            width: auto;
+            text-align: center;
+        }
+    .account-content .exit {
+        border: 2px solid black;
+        text-align: right;
+    }
+    .account-content .exit-btn {
+        cursor: pointer;
+    }
 /*  */
 
-
-form {
-    border: 2px solid gray;
+.active {
+    display: flex; /* block */
 }
-
-fieldset {
-    border: 2px solid black;
-}
-
-label {
-    background: pink;
-    float: left;
-    text-align: right;
-    margin: 0 10px 0 0;
-    width: 60px;
-}
-
-label[for="email"]::after,
-label[for="password"]::after {
-    content: ' *';
-}
-
-input.validate-btn {
-    border: 2px solid gray;
-    float: right;
-}
-
-div.logout-container {
-    border: 2px solid gray;
-    width: 100%;
-    /* height: 24px; */
+.hidden {
+    display: none;
 }
