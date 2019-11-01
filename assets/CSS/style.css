@@ -20,6 +20,10 @@ body {
 main {
     min-height: 69vh;
     /* background-color:lightblue; */
+    background-image: url(../IMAGES/theme.jpg);
+    background-position: center;
+    /* background-size: cover; */
+    
 }
 
 div.modal-search-bar {
