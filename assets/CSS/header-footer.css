@@ -18,7 +18,7 @@ header .container-wrapper {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 463px;
+        width: 190px;
         height: 100%;
     }
         .project-title i {
@@ -27,24 +27,28 @@ header .container-wrapper {
         }
     .navbar {
         border: 2px solid green;
-        width: 464px;
         height: 100%;
     }
         .navbar ul {
             display: flex;
-            justify-content: center; /* x */
-            align-items: center;
-            width: 100%;
             height: 100%;
         }
         .navbar li {
-            padding: 0 10px;
-            /* width: 100%; */
-            /* height: 100%; */
+            display: flex;
+            height: 100%;
         }
         .navbar li:hover {
             background: darkgray;
             cursor: pointer;
+        }
+        .navbar a {
+            color: black;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .navbar i {
+            margin-left: 5px;
         }
 /*  */
 
